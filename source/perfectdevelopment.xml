@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+	<name>PLG_PERFECTDEVELOPMENT</name>
+	<creationDate>23/12/2016</creationDate>
+	<author>Perfect Web Team</author>
+	<authorEmail>hallo@perfectwebteam.nl</authorEmail>
+	<authorUrl>https://perfectwebteam.nl</authorUrl>
+	<copyright>Copyright (C) 2016 Perfect Web Team. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>PLG_PERFECTDEVELOPMENT_XML_DESCRIPTION</description>
+
+	<!-- Language files -->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_perfectdevelopment.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_perfectdevelopment.sys.ini</language>
+	</languages>
+
+	<!-- Plugin files -->
+	<files>
+		<filename plugin="perfectimage">perfectimage.php</filename>
+		<folder>language</folder>
+	</files>
+
+	<!-- Config parameter -->
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="domain"
+					type="text"
+					label="PLG_PERFECTIMAGE_DOMAIN_LABEL"
+					description="PLG_PERFECTIMAGE_DOMAIN_DESCRIPTION"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
