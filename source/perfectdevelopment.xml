@@ -18,7 +18,7 @@
 
 	<!-- Plugin files -->
 	<files>
-		<filename plugin="perfectimage">perfectimage.php</filename>
+		<filename plugin="perfectdevelopment">perfectdevelopment.php</filename>
 		<folder>language</folder>
 	</files>
 
@@ -29,8 +29,8 @@
 				<field
 					name="domain"
 					type="text"
-					label="PLG_PERFECTIMAGE_DOMAIN_LABEL"
-					description="PLG_PERFECTIMAGE_DOMAIN_DESCRIPTION"
+					label="PLG_PERFECTDEVELOPMENT_DOMAIN_LABEL"
+					description="PLG_PERFECTDEVELOPMENT_DOMAIN_DESCRIPTION"
 				/>
 			</fieldset>
 		</fields>

@@ -1,6 +1,6 @@
 <?php
 /**
- * @package     Perfectimage
+ * @package     Perfectdevelopment
  *
  * @author      Perfect Web Team <hallo@perfectwebteam.nl>
  * @copyright   Copyright (C) 2015 - 2016 Perfect Web Team. All rights reserved.
@@ -11,12 +11,12 @@
 defined('_JEXEC') or die;
 
 /**
- * Perfectimage plugin.
+ * Perfectdevelopment plugin.
  *
- * @package  perfectimage
+ * @package  Perfectdevelopment
  * @since    1.0
  */
-class plgSystemPerfectimage extends JPlugin
+class plgSystemPerfectdevelopment extends JPlugin
 {
 	/**
 	 * Application object
